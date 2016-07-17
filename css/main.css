@@ -233,6 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 ================================*/
 
 #slider-section, #home-section{
+	background-image: url('../images/header1.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-color:#282f1f;
