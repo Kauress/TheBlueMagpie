@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 	position:absolute;
 	left:0;
 	top:50%;
-	margin-top:0px;
+	margin-top:-1px;
 	width:100%;
 	color:#fff;
 }
@@ -1103,4 +1103,31 @@ transform: rotateY(180deg);
 
 .demo-chooser-inner ul li.active a {
 	cursor:default;
+}
+
+
+@media(max-width:767px){
+	#slider-section, #home-section{
+	background-image: url('../images/header1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:#282f1f;
+	position:relative;
+	color:#ffffff;
+	height:950px;
+	padding:-100px;
+}
+
+}
+@media(min-width:768px){
+#slider-section, #home-section{
+	background-image: url('../images/header1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:#282f1f;
+	position:relative;
+	color:#ffffff;
+	height:950px;
+	padding:-100px;
+}
 }
