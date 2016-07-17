@@ -1115,11 +1115,11 @@ transform: rotateY(180deg);
 	position:relative;
 	color:#ffffff;
 	height:950px;
-	padding:-100px;
+	width: 100%;
 }
 
 }
-@media(min-width:768px){
+@media(min-width:968px){
 #slider-section, #home-section{
 	background-image: url('../images/header1.jpg');
 	background-repeat:no-repeat;
@@ -1128,6 +1128,6 @@ transform: rotateY(180deg);
 	position:relative;
 	color:#ffffff;
 	height:950px;
-	padding:-100px;
+	width: 100%;
 }
 }
