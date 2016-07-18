@@ -1109,3 +1109,6 @@ transform: rotateY(180deg);
 	cursor:default;
 }
 
+.img-responsive{
+	width: 100%;
+}
