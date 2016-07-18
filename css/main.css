@@ -1132,7 +1132,10 @@ transform: rotateY(180deg);
 }
 }
 
-
-.img-responsive{
-  width:100%;
+.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/header1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
 }
