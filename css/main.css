@@ -1134,9 +1134,8 @@ transform: rotateY(180deg);
 
 
 .jumbotron{
-background-image: url("../images/header1.jpg");
+
 background-size: cover;
  background-repeat: no-repeat;
   color: white;
-  height: 400px;
 }
