@@ -1111,35 +1111,16 @@ transform: rotateY(180deg);
 
 
 @media(max-width:767px){
-	#slider-section, #home-section{
-	background-image: url('../images/header2.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-color:#282f1f;
-	position:relative;
-	color:#ffffff;
-	height:750px;
-	padding:-100px;
-}
+
+.img-responsive{
+	height:400px;
+}	
 
 }
 @media(min-width:768px){
-#slider-section, #home-section{
-	background-image: url('../images/header2.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-color:#282f1f;
-	position:relative;
-	color:#ffffff;
-	height:750px;
-	padding:-100px;
-}
+.img-responsive{
+	height:400px;
+}	
+
 }
 
-.intro-header {
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../images/header1.jpg) no-repeat center center;
-    background-size: cover;
-    height: 700px;
-}
